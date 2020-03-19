@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +12,17 @@ namespace test
 {
     public partial class Form1 : Form
     {
+        int mynum;
+        long yunname;
         public Form1()
         {
             InitializeComponent();
+
+            void testnum()
+            {
+                mynum = 90;
+                yunname = 34;
+            }
         }
     }
 }
